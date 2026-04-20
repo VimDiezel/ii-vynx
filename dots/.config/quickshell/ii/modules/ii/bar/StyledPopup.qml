@@ -92,10 +92,10 @@ LazyLoader {
             id: openAnim
             from: 0
             to: 1
-            duration: Appearance.animation.elementMove.duration * 1.5
+            running: true
+            duration: Appearance.animation.elementMove.duration 
             easing.type: Appearance.animation.elementMove.type
             easing.bezierCurve: Appearance.animation.elementMove.bezierCurve
-            running: true
         }
 
         Rectangle {
